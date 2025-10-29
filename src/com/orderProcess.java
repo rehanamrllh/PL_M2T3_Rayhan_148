@@ -17,7 +17,7 @@ class orderProcess {
      * Tingkat diskon yang diterapkan (dalam bentuk desimal).
      * Saat ini bernilai {@value #DISCOUNT_RATE} (10%).
      */
-    public static final double DISCOUNT_RATE = 0.1;
+    public static final double DISCOUNT_RATE = 0.4;
 
     private String productName;
     private int quantity;
