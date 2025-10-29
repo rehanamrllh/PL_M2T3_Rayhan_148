@@ -79,7 +79,7 @@ class orderProcess {
      */
     public void processOrder() {
         System.out.println("Nama: " + getProductName());
-        boolean stockAvailable = true; // Asumsi stok tersedia
+        boolean stockAvailable = false; // Asumsi stok tersedia
 
         double total = 0;
         if (stockAvailable) {
